@@ -1,4 +1,4 @@
-class FiguresController < ApplicationController
+klclass FiguresController < ApplicationController
   
    get "/figures" do 
     @figures = Figure.all 
